@@ -13,7 +13,7 @@ function CustomerSuccess() {
                     <p className="">Open positions in our design team</p>
                 </div>
                 <div className="col-span-2 flex flex-col gap-4">
-                {[...Array(1)].map((i) => <div className="border sm:p-8 p-5 rounded-lg flex flex-col gap-9 font-semibold">
+                {[...Array(1)].map((t,i) => <div key={i} className="border sm:p-8 p-5 rounded-lg flex flex-col gap-9 font-semibold">
                         <div className='flex flex-col sm:gap-2 gap-4'>
                             <div className="flex flex-col sm:flex-row gap-3 sm:gap-0 justify-between">
                                 <div className="flex gap-3">
