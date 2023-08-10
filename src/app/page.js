@@ -2,6 +2,7 @@ import Banner from '@/app/home/Banner'
 import Design from './home/Design'
 import SoftwareDevelopment from './home/SoftwareDevelopment'
 import CustomerSuccess from './home/CustomerSuccess'
+import ImgSection from './home/ImgSection'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Design />
         <SoftwareDevelopment />
         <CustomerSuccess />
+        <ImgSection />
     </div>
   )
 }
