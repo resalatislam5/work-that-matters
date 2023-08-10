@@ -25,7 +25,7 @@ function CustomerSuccess() {
                                     <p>Melbourne, Australia</p>
                                 </div>
                             </div>
-                            <p className='text-sm'>We're looking for a mid-level product designer to join our team</p>
+                            <p className='text-sm'>{"We're"} looking for a mid-level product designer to join our team</p>
                         </div>
                         <div className='flex gap-5'>
                             <p className='flex gap-2 items-center '><Image className='w-5' src={time} alt="" />Full-time</p>
