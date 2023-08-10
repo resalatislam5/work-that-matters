@@ -1,4 +1,3 @@
-"use client"
 import Image from "next/image";
 import worldImg from '@/app/ass/world-svgrepo-com.svg'
 
