@@ -3,7 +3,6 @@ import Design from './home/Design'
 import SoftwareDevelopment from './home/SoftwareDevelopment'
 import CustomerSuccess from './home/CustomerSuccess'
 import ImgSection from './home/ImgSection'
-import FreeTrial from './home/FreeTrial'
 
 export default function Home() {
   return (
@@ -13,7 +12,6 @@ export default function Home() {
         <SoftwareDevelopment />
         <CustomerSuccess />
         <ImgSection />
-        <FreeTrial />
     </div>
   )
 }
