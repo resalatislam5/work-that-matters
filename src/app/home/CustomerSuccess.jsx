@@ -6,7 +6,7 @@ import Image from 'next/image';
 function CustomerSuccess({selected}) {
     return (
         <div>
-             { (selected.name =='all' || selected.name == 'Customer Success')&&
+             { (selected.name =='All' || selected.name == 'Customer Success')&&
             <div>
             <hr className='hidden md:flex' />
             <div className="lg:grid grid-cols-3 md:py-20 py-5 text-[#4A525D]">
