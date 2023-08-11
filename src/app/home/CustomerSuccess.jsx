@@ -20,7 +20,7 @@ function CustomerSuccess({selected}) {
                             <div className="flex flex-col sm:flex-row gap-3 sm:gap-0 justify-between">
                                 <div className="flex gap-3">
                                     <h3 className="sm:text-xl text-black font-bold">Product Designer</h3>
-                                    <p className="bg-[#F4F5FA] flex items-center sm:px-1 rounded-full"><Image className='w-5' src={dot} alt="" /> Design</p>
+                                    <p className="bg-[#F4F5FA] text-sm  flex items-center sm:px-1 rounded-full"><Image className='w-5' src={dot} alt="" /> Design</p>
                                 </div>
                                 <div className="bg-[#F4F5FA] gap-2 w-52 flex items-center px-1 rounded-full">
                                     <Image className='rounded-full w-5' src={asutralia} alt="" />
@@ -29,9 +29,11 @@ function CustomerSuccess({selected}) {
                             </div>
                             <p className='text-sm'>{"We're"} looking for a mid-level product designer to join our team</p>
                         </div>
-                        <div className='flex gap-5'>
+                        <div className='flex flex-wrap gap-5'>
                             <p className='flex gap-2 items-center '><Image className='w-5' src={time} alt="" />Full-time</p>
                             <p className='flex gap-2 items-center '><Image className='w-5' src={dolor} alt="" />80k - 100k</p>
+                            <p className='flex gap-2 items-center '><Image className='w-5' src={time} alt="" />Vacancy</p>
+                            <p className='flex gap-2 items-center '><Image className='w-5' src={dolor} alt="" />experience</p>
                         </div>
                     </div>)}
                 </div>
