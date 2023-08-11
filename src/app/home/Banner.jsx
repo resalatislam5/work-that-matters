@@ -1,20 +1,19 @@
 "use client"
 import Image from "next/image";
 import worldImg from '@/app/ass/world-svgrepo-com.svg'
-import { Fragment, useState } from 'react'
+import { Fragment, useEffect, useState } from 'react'
 import { Listbox, Transition } from '@headlessui/react'
 import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
 
 const people = [
-    { name: 'Worldwide', img:worldImg },
-    { name: 'Arlene Mccoy', img:worldImg },
-    { name: 'Devon Webb', img:worldImg },
-    { name: 'Tom Cook', img:worldImg },
+    { name: 'All', img:worldImg },
+    { name: 'design', img:worldImg },
+    { name: 'Software Development', img:worldImg },
+    { name: 'Customer Success', img:worldImg },
     { name: 'Tanya Fox', img:worldImg },
     { name: 'Hellen Schmidt', img:worldImg },
   ]
-function Banner() {
-    const [selected, setSelected] = useState(people[0])
+function Banner({setSelected,selected}) {
     return (
         <div className="grid xl:grid-cols-5  sm:py-20 py-10 sm:grid-cols-3 gap-6">
             <div className="flex flex-col gap-6 xl:col-span-3 sm:col-span-2">

@@ -3,10 +3,12 @@ import asutralia from '@/app/ass/australia-svgrepo-com.svg'
 import time from '@/app/ass/time-svgrepo-com.svg'
 import dolor from '@/app/ass/dollar-minimalistic-svgrepo-com.svg'
 import Image from 'next/image';
-function Design() {
+function Design({selected}) {
     return (
         <div>
-            <hr className='hidden md:flex' />
+            { (selected.name =='all' || selected.name == 'design')&&
+            <div>
+                <hr className='hidden md:flex' />
             <div className="lg:grid grid-cols-3 md:py-20 py-5 text-[#4A525D]">
                 <div className="flex flex-col gap-3 pb-5 lg:pb-0">
                     <h2 className="text-xl font-bold text-black">Design</h2>
@@ -33,7 +35,9 @@ function Design() {
                         </div>
                     </div>)}
                 </div>
+            </div> 
             </div>
+            }
         </div>
     );
 }
