@@ -3,7 +3,6 @@ import Banner from '@/app/home/Banner'
 import Design from './home/Design'
 import SoftwareDevelopment from './home/SoftwareDevelopment'
 import CustomerSuccess from './home/CustomerSuccess'
-import ImgSection from './home/ImgSection'
 import { useState } from 'react'
 import worldImg from '@/app/ass/world-svgrepo-com.svg'
 
@@ -15,7 +14,6 @@ export default function Home() {
         <Design selected={selected}/>
         <SoftwareDevelopment selected={selected} />
         <CustomerSuccess selected={selected} />
-        <ImgSection />
     </div>
   )
 }
